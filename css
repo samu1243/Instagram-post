@@ -1,0 +1,61 @@
+body,html {
+    display:flex;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.main{
+    background-color: white;
+    display: column;
+    width: 600px;
+    height: 800px;
+}
+.header {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-left: 20px;
+}
+.titulo {
+    padding-left: 10px;
+}
+.ht{position:relative; top: 7px;}
+.rigo {position: relative; top: -7px;}
+
+.imagen{
+    width:auto;
+    height:auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.icons {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    flex-direction: row;
+}
+
+.icon2{
+    padding-left: 10px;
+}
+.icon3{
+    padding-left: 10px;
+}
+.icon4 {
+    position: relative; right: -350px;
+}
+.like {
+    padding-left: 20px;
+    font-size: large;
+    padding-top: 20px;
+}
+.lorem {
+    padding-left: 20px;
+    font-size: large;
+}
